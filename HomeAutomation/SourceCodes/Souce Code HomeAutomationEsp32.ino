@@ -40,7 +40,7 @@ const char* ssid = "********Enter Your SSID*********";   //WIFI SSID
 const char* password = "************Enter your Wifi Password**********";    //WIFI PASSWORD
 
 #define FIREBASE_HOST "***********Enter your Firebase Host*************"
-#defineFIREBASE_AUTH"*************Enter Your Firbase Auth****************î
+#defineFIREBASE_AUTH"*************Enter Your Firbase Auth****************‚Äù
 
 
 /* data received from application */
@@ -150,7 +150,7 @@ digitalWrite(24, LOW);
  if (digitalRead(23)==HIGH
  {
  car = "car_not_parked";
- Firebase.setString(firebaseData,î iot project/car",car);
+ Firebase.setString(firebaseData,‚Äù iot project/car",car);
  //Serial.println(car);
  }
  else
